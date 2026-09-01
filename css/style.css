@@ -1111,7 +1111,10 @@ section + section::before {
     }
 
     .hero-visual {
-        display: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2rem;
     }
 
     .films-track {
